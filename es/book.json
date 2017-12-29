@@ -1,0 +1,14 @@
+{
+  "language": "es",
+  "title": "Título del documento",
+  "description": "Descripción del contenido del documento",
+  "variables": {
+    "version": "1.0",
+    "date": "dd/mm/yyyy",
+    "editors": "Jane Doe, John Doe",
+    "authors": "Jane Doe, John Doe",
+    "contributors": "Jane Doe, John Doe",
+    "revisers": "Jane Doe, John Doe",
+    "participants": "Jane Doe, John Doe"
+  }
+}

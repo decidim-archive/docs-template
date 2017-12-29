@@ -1,0 +1,28 @@
+{
+  "name": "docs-SLUG",
+  "version": "1.0.0",
+  "description": "Document Description",
+  "keywords": [
+    "Decidim",
+    "docs",
+    "SLUG"
+  ],
+  "homepage": "https://docs.decidim.org/SLUG/",
+  "repository": "github:decidim/docs-SLUG",
+  "license": "AGPL-3.0",
+  "author": "Decidim Team <hola@decidim.org> (https://decidim.org/)",
+  "scripts": {
+    "start": "gitbook serve",
+    "prebuild": "gitbook build . SLUG",
+    "build": "mkdir -p _book && mv -t _book SLUG",
+    "postbuild": "cp _redirects _book/"
+  },
+  "dependencies": {
+    "gitbook-plugin-anchorjs": "1.1.1",
+    "gitbook-plugin-edit-link": "2.0.2",
+    "gitbook-plugin-wiki-toc": "1.0.0"
+  },
+  "devDependencies": {
+    "gitbook-cli": "2.3.2"
+  }
+}

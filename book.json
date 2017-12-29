@@ -1,0 +1,20 @@
+{
+  "author": "Decidim Team <hola@decidim.org> (https://decidim.org/)",
+  "gitbook": ">=3.0.0",
+  "plugins": [
+    "-sharing",
+    "anchorjs",
+    "edit-link",
+    "wiki-toc"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/decidim/docs-SLUG/edit/master/",
+      "label": {
+        "ca": "Edita",
+        "es": "Edita",
+        "en": "Edit"
+      }
+    }
+  }
+}
