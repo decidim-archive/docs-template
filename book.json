@@ -5,7 +5,8 @@
     "-sharing",
     "anchorjs",
     "edit-link",
-    "wiki-toc"
+    "wiki-toc",
+    "code"
   ],
   "pluginsConfig": {
     "edit-link": {
