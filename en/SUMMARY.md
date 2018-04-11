@@ -1,4 +1,4 @@
 # Summary
 
 * [Metadata](README.md)
-* [1. Section Sample](section-sample.md)
+* [Annex: Markdown 101](markdown-101.md)

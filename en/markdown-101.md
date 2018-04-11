@@ -1,12 +1,10 @@
-# 1. Section Sample
-
-## 1.1. Importing files
-
-{% include "git+https://github.com/decidim/docs-editing-guide.git/README.md" %}
-See [https://toolchain.gitbook.com/templating/conrefs.html](https://toolchain.gitbook.com/templating/conrefs.html)
+# Markdown 101
 
 
-## 2.1. Markdown Cheatsheet
+## Markdown Cheatsheet
+
+If you open this document in a text editor with *Markdown* preview (e.g. *GitBook* or *Visual Studio Code*)
+you can see how to format text.
 
 ### Headers
 
@@ -139,3 +137,25 @@ Autoconverted link https://github.com/nodeca/pica
 ### Images
 ![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")  
 ![Dojocat](https://octodex.github.com/images/dojocat.jpg "The Dojocat")
+
+
+## Import contents
+
+If you use *GitBook* you can embed content of external files in your documents:
+
+```
+{% include "git+https://github.com/decidim/docs-editing-guide.git/README.md" %}
+```
+
+You can read more about this feature at [https://toolchain.gitbook.com/templating/conrefs.html](https://toolchain.gitbook.com/templating/conrefs.html)
+
+
+## Links
+
+- Markdown Guide https://www.markdownguide.org/
+- Mastering Markdown https://masteringmarkdown.com/
+- Typora https://typora.io/
+- Dillinger https://dillinger.io/
+- StackEdit https://stackedit.io/
+- Classeur http://classeur.io/
+- HackMD https://hackmd.io/
