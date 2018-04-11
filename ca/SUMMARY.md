@@ -1,4 +1,4 @@
 # Summary
 
 * [Metadades](README.md)
-* [1. Secció d'exemple](seccio-exemple.md)
+* [Annex: Markdown 101](markdown-101.md)
